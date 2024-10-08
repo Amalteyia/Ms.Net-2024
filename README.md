@@ -23,4 +23,5 @@
 ### 7.Удаление записи
 Пользователь может удалить запись о каком-то инцеденте
 
-![image](https://github.com/user-attachments/assets/40a0d1e8-f290-4b3b-9f12-57dd19ba19a5)
+![Uploading image.png…]()
+
