@@ -13,6 +13,10 @@ public static class MapperConfigurator
             // users
             config.AddProfile<UsersBLProfile>();
             config.AddProfile<UsersServiceProfile>();
+            
+            // areas
+            config.AddProfile<AreasBLProfile>();
+            config.AddProfile<AreasServiceProfile>();
         });
     }
 }

@@ -1,4 +1,6 @@
 using AutoMapper;
+using DinoPark.BL.Areas.Managers;
+using DinoPark.BL.Areas.Providers;
 using DinoPark.BL.Users.Managers;
 using DinoPark.BL.Users.Providers;
 using DinoPark.DataAccess;
@@ -22,6 +24,15 @@ public static class ServicesConfigurator
                 x.GetRequiredService<IMapper>()));
         services.AddScoped<IUsersManager>(x =>
             new UsersManager(x.GetRequiredService<IRepository<UserEntity>>(),
+                x.GetRequiredService<IMapper>()));
+        // areas
+        services.AddScoped<IRepository<AreaEntity>>(x =>
+            new Repository<AreaEntity>(x.GetRequiredService<IDbContextFactory<DinoParkDbContext>>()));
+        services.AddScoped<IAreasProvider>(x =>
+            new AreasProvider(x.GetRequiredService<IRepository<AreaEntity>>(),
+                x.GetRequiredService<IMapper>()));
+        services.AddScoped<IAreasManager>(x =>
+            new AreasManager(x.GetRequiredService<IRepository<AreaEntity>>(),
                 x.GetRequiredService<IMapper>()));
     }
 }

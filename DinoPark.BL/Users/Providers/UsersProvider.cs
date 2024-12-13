@@ -7,7 +7,7 @@ namespace DinoPark.BL.Users.Providers;
 
 public class UsersProvider : IUsersProvider
 {
-     private readonly IRepository<UserEntity> _usersRepository;
+    private readonly IRepository<UserEntity> _usersRepository;
     private readonly IMapper _mapper;
     
     public UsersProvider(IRepository<UserEntity> usersRepository, IMapper mapper)
