@@ -24,4 +24,8 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DinoPark.DataAccess\DinoPark.DataAccess.csproj" />
+    </ItemGroup>
+
 </Project>
