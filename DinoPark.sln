@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinoPark.Service", "DinoPar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinoPark.DataAccess", "DinoPark.DataAccess\DinoPark.DataAccess.csproj", "{ED8D11D5-001C-44DE-AAF2-8EF81E617F5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinoPark.BL", "DinoPark.BL\DinoPark.BL.csproj", "{95985181-F47F-4CCB-9A48-68DFB51A6A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{ED8D11D5-001C-44DE-AAF2-8EF81E617F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED8D11D5-001C-44DE-AAF2-8EF81E617F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED8D11D5-001C-44DE-AAF2-8EF81E617F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95985181-F47F-4CCB-9A48-68DFB51A6A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95985181-F47F-4CCB-9A48-68DFB51A6A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95985181-F47F-4CCB-9A48-68DFB51A6A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95985181-F47F-4CCB-9A48-68DFB51A6A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
